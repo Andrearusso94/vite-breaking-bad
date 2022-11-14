@@ -6,4 +6,5 @@ export const store = reactive({
     characters: null,
     error: null,
 
+
 })

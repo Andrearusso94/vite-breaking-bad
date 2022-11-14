@@ -15,3 +15,7 @@ export default {
         </section>
     </main>
 </template>
+
+<style lang="scss">
+
+</style>
