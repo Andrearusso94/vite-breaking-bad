@@ -17,12 +17,15 @@ export default {
 
 <template>
     <div class="container py-5 bg-white">
-        <div class="row row-cols-1 row-cols-sm-5">
+        <div class="found bg-dark text-white py-2 px-2">Found 62 chacartes</div>
+        <div class="row row-cols-1 row-cols-sm-5 mx-2">
             <CharaterItemVue :character="character" v-for="character in store.characters"></CharaterItemVue>
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
-
+.container {
+    width: 80%;
+}
 </style>

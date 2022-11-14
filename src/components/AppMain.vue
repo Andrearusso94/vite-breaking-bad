@@ -9,7 +9,12 @@ export default {
 </script>
 <template>
     <main>
-        <section class="charaters">
+        <div class="category my-5 container">
+            <div class="btn btn-light "> Select category </div>
+        </div>
+
+
+        <section class="charaters my-3">
 
             <CharaterListVue />
         </section>
@@ -17,5 +22,7 @@ export default {
 </template>
 
 <style lang="scss">
-
+.container {
+    width: 80%;
+}
 </style>
