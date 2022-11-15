@@ -15,7 +15,7 @@ export default {
         selectSeries() {
             const seriesCategory = this.store.category
             const url = `${this.store.API_URL}?category=${seriesCategory}`
-            console.log(this.selectSeries);
+            console.log(url);
 
             axios.get(url)
                 .then(resp => {
