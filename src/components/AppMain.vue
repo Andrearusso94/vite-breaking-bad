@@ -13,8 +13,8 @@ export default {
     },
     methods: {
         selectSeries() {
-            console.log(this.store.selectSeries)
-            const url = `${this.store.API_URL}?category=${selectSeries}`
+            const seriesCategory = this.store.category
+            const url = `${this.store.API_URL}?category=${seriesCategory}`
             console.log(this.selectSeries);
 
             axios.get(url)

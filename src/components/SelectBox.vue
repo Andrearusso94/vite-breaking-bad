@@ -14,9 +14,10 @@ export default {
 </script>
 
 <template>
-    <select v-model="store.selectSeries" @change="$emit('searchData')" class="form-select form-select-sm" name="" id="">
-        <option selected>breaking bad</option>
-        <option value="">Better Call Soul</option>
+    <select v-model="store.category" @change="$emit('searchData')" @click="$emit('selectSeries')"
+        class="form-select form-select-sm" name="" id="">
+        <option selected>Breaking Bad</option>
+        <option value="">Better Call Saul</option>
 
     </select>
 </template>
